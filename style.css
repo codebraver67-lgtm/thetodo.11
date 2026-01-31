@@ -1,0 +1,106 @@
+body{
+    margin-top: 20px;
+    background-color: rgb(198, 213, 213);
+}
+
+h1{
+    display: inline;
+    color:#000000;
+}
+h1:hover {
+    opacity: 0.8;
+}
+
+#topname {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 30px;
+  font-family: Georgia, serif;
+  color: rgb(242, 37, 119);
+}
+#topname:hover {
+  color: rgb(255, 50, 120);
+}
+
+#topname::placeholder {
+  font-family: "Poppins", Arial, sans-serif;
+  color: #ff93c9ad;
+  font-size: 25px;
+}
+#topname::placeholder:hover {
+  color: #555; 
+}
+#secondline{
+    font-family: "Courier New", monospace;
+    color: rgb(0, 0, 0);
+}
+h4{
+    color:rgb(229, 101, 152);
+    font-size: 30px;
+    margin: 3px;
+}
+h4:hover {
+    color: #f9238e;
+}
+
+#task {
+  width: 100%;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: none;
+  padding: 10px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+#task:hover {
+  box-shadow: 0 6px 8px rgba(0,0,0,0.2);
+}
+
+.radio-container {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+.radio-container:hover {
+  gap: 12px; /* subtle expansion */
+}
+
+.radio-item {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+  height: 80px;
+}
+.radio-item:hover {
+  box-shadow: 0 6px 10px rgba(0,0,0,0.2);
+  transform: translateY(-2px);
+  transition: 0.2s;
+}
+
+#addtodolist{
+    margin-top: 30px;
+    width: 100%;
+    color: white;
+    background-color: #f9238e;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    padding: 8px;
+    font-size: 0.9rem;
+    box-sizing: border-box;
+    height: 30px;
+}
+#addtodolist:hover {
+    background-color: rgb(251, 121, 190);
+    box-shadow: 0 6px 10px rgba(0,0,0,0.2);
+    transform: translateY(-2px);
+    transition: 0.2s;
+}
